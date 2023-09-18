@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <h1>Calculator</h1>
+    </div>
+    <div id="calc">
+        <table>
+            <tr id="inp">
+                <td colspan="4"><input placeholder="0" type="text" id="disp" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="topbtn red" value="AC" onclick="disp.value = '' ">
+                        AC
+                    </button>
+                </td>
+                <td>
+                    <button class="topbtn" value="DEL" onclick="disp.value = disp.value.toString().slice(0,-1)">
+                        DEL
+                    </button>
+                </td>
+                <td>
+                    <button id="dev" class="btncolor" value="/" onclick="disp.value += '/'">
+                        /
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button value="7" class="number" onclick="disp.value += '7'">
+                        7
+                    </button>
+                </td>
+                <td>
+                    <button value="8" class="number" onclick="disp.value += '8'">
+                        8
+                    </button>
+                </td>
+                <td>
+                    <button value="9" class="number" onclick="disp.value += '9'">
+                        9
+                    </button>
+                </td>
+                <td>
+                    <button id="mul" class="btncolor rot" value="*" onclick="disp.value += '*'">
+                        +
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button value="4" class="number" onclick="disp.value += '4'">
+                        4
+                    </button>
+                </td>
+                <td>
+                    <button value="5" class="number" onclick="disp.value += '5'">
+                        5
+                    </button>
+                </td>
+                <td>
+                    <button value="6" class="number" onclick="disp.value += '6'">
+                        6
+                    </button>
+                </td>
+                <td>
+                    <button id="sub" class="btncolor" value="-" onclick="disp.value += '-'">
+                        -
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button value="1" class="number" onclick="disp.value += '1'">
+                        1
+                    </button>
+                </td>
+                <td>
+                    <button value="2" class="number" onclick="disp.value += '2'">
+                        2
+                    </button>
+                </td>
+                <td>
+                    <button value="3" class="number" onclick="disp.value += '3'">
+                        3
+                    </button>
+                </td>
+                <td>
+                    <button id="add" value="+" class="btncolor" onclick="disp.value += '+'">
+                        +
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="bigbtn zero" value="0" onclick="disp.value += '0'">
+                        0
+                    </button>
+                </td>
+                <td><button value="." onclick="disp.value += '.' ">.</button></td>
+                <td>
+                    <button id="eql" value="=" class="btncolor" onclick="disp.value = eval(disp.value)">
+                        =
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
