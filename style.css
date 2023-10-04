@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+.front-view{
+    height: 739px;
+    width: 1200px;
+    background-image: url("./assets/desktop-wallpaper-rolls-royce-2021.jpg");
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+.back{
+    height: 739px;
+    width: 200px;
+    background-image: url(./assets/back.jpg);
+    background-size: contain;
+   
+}
+.head{
+    font-size:75px;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 310px;
+    color: rgb(187, 195, 205);
+}
+.heading{
+   height: 80px;
+   width: 100px;   
+   display:block;
+}
+.name{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: -110px;
+}
+.journey{
+    height: 739px;
+    width: 1510px;
+}
+.our-journey{
+   text-align: center;
+   font-size: 50px;
+   margin-top: -49px;
+   font-family: 'Inria Serif', serif;
+}
+.details{
+    display: flex;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+.about{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Inria Serif', serif;
+}
+.photo-1{
+    height: 250px;
+    width: 400px;
+    margin:30px 20px;
+    margin-bottom: 0;
+}
+.sec{
+    margin-top: 0;
+}
+.photo-2{
+    height: 250px;
+    width: 350px;
+    margin:55px 20px;
+    margin-bottom: 0;
+}
+.sec-1{
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top: 40px;
+}
+.ii{
+    width: 250px;
+    margin-left: 90px;
+}
+.services{
+    height: 739px;
+    width: 1510px;
+}
+.service{
+    font-family: 'Inria Serif', serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0px;
+    overflow: none;
+}
+.tech{
+    display: flex;
+    margin-bottom: -15px;
+}
+.para{
+    font-family: 'Inria Serif', serif;
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.pick{
+    width: 700px;
+    height: 130px;
+    margin-left: 200px;
+}
+.left{
+    margin-left: 0;
+}
+.footer{
+    height: 739px;
+    width: 1510px;
+}
+.footer-1{
+    height:389px;
+    width: 1510px;
+}
+.footer-2{
+    height: 350px;
+    width:1510px ;
+    color: white;
+    background-color: black;
+    display: flex;
+}
+.foot{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: xx-large;
+    font-family: 'Inria Serif', serif;
+}
+.rolls{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: -300px;
+}
+.about{
+    height: 210px;
+    width: 300px;
+    padding-top: 50px;
+    font-size: large;
+}
+.link{
+    height: 30px;
+    width: 220px;
+    margin-top: 260px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.copyright{
+    text-align: center;
+}
+.client{
+    height: 400px;
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 20px;
+    background-image: url("./assets/WhatsApp\ Image\ 2023-09-14\ at\ 9.14.58\ PM.jpeg");
+}
+.buy{
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    margin-left: 1000px;
+    margin-top: 120px;
+    box-shadow: 2px 2px rgb(77, 197, 97);
+    color: rgb(60, 60, 211);
+    user-select: none;
+}
